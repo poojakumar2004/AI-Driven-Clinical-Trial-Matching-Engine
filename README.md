@@ -1,54 +1,125 @@
-# AI-Driven Clinical Trial Matching Engine
+🩺 AI-Driven Clinical Trial Matching Engine
 
-Matches a patient profile against live clinical trials pulled from
-ClinicalTrials.gov, parses free-text eligibility criteria into structured
-rules, scores the match, and explains the result.
+📖 Project Description
 
-## Setup
+The AI-Driven Clinical Trial Matching Engine is an intelligent healthcare application that helps doctors and patients quickly identify suitable clinical trials using Artificial Intelligence (AI), Natural Language Processing (NLP), and Machine Learning (ML).
 
-```bash
-pip install -r requirements.txt
-```
+The system analyzes patient medical information and compares it with eligibility criteria from clinical trials to recommend the most appropriate studies. It also provides clear explanations for why a patient qualifies or does not qualify for each trial.
 
-(Optional, for LLM-based criteria parsing fallback)
-```bash
-export ANTHROPIC_API_KEY=your_key_here
-```
+---
 
-## Run the dashboard
+🎯 Objectives
 
-```bash
-streamlit run app.py
-```
+- Automate the clinical trial matching process.
+- Reduce the time required to identify eligible clinical trials.
+- Extract eligibility criteria using Natural Language Processing.
+- Rank clinical trials based on patient eligibility.
+- Provide explainable AI recommendations for clinicians.
+- Improve clinical trial participation and recruitment.
 
-This opens a browser window where you can enter a patient profile
-(age, diagnosis, labs, ECOG status, etc.) and see ranked, explained
-matches against real, currently-recruiting trials.
+---
 
-## Project Files
+🚀 Features
 
-- `trial_fetcher.py` — pulls live trial data from the ClinicalTrials.gov API
-- `patient_schema.py` — patient data model
-- `criteria_parser.py` — regex-based (+ optional LLM fallback) parser that
-  converts free-text eligibility criteria into structured rules
-- `matcher.py` — scores a patient against a trial's parsed rules
-- `explainer.py` — turns match results into human-readable explanations
-- `app.py` — Streamlit web dashboard tying it all together
+- 👤 Patient Profile Management
+- 📄 Clinical Trial Eligibility Parsing using NLP
+- 🤖 AI-Based Trial Matching
+- 📊 Eligibility Score Calculation
+- 💡 Explainable AI Recommendations
+- 🌐 ClinicalTrials.gov API Integration
+- 📈 Interactive Dashboard
+- 🔒 Secure Patient Data Management
 
-## Quick test of individual modules
+---
 
-```bash
-python trial_fetcher.py      # prints 5 sample breast cancer trials
-python criteria_parser.py    # parses a sample eligibility text block
-```
+🛠️ Technologies Used
 
-## Next steps (for a 6-month project scope)
+Programming Languages
 
-1. Replace structured patient input with NLP extraction from real clinical
-   notes (e.g. MIMIC-III/IV, after credentialed access).
-2. Fine-tune a ClinicalBERT model on labeled eligibility criteria instead of
-   relying purely on regex/LLM calls.
-3. Add semantic similarity matching (sentence embeddings) for non-numeric
-   criteria (e.g. "no history of autoimmune disease").
-4. Validate against a clinician's manual review of 20-30 cases for your
-   evaluation/results chapter.
+- Python
+- JavaScript
+- HTML
+- CSS
+
+Frontend
+
+- React.js
+- Bootstrap
+
+Backend
+
+- FastAPI / Flask
+
+Artificial Intelligence & NLP
+
+- BioBERT
+- ClinicalBERT
+- Hugging Face Transformers
+- spaCy
+- Scikit-learn
+
+Database
+
+- PostgreSQL
+
+Data Source
+
+- ClinicalTrials.gov API
+- MIMIC-III / MIMIC-IV
+- Synthetic Patient Data
+
+---
+
+⚙️ Project Workflow
+
+1. Collect patient medical information.
+2. Retrieve clinical trial data.
+3. Parse eligibility criteria using NLP.
+4. Compare patient data with trial requirements.
+5. Calculate eligibility score.
+6. Generate explainable results.
+7. Display ranked clinical trials on the dashboard.
+
+---
+
+📊 Expected Output
+
+- Ranked list of matching clinical trials.
+- Eligibility confidence score.
+- Match and rejection explanations.
+- Missing information alerts.
+- User-friendly clinician dashboard.
+
+---
+
+🌟 Applications
+
+- Hospitals
+- Healthcare Organizations
+- Clinical Research Centers
+- Pharmaceutical Companies
+- Medical Universities
+- Healthcare Research
+
+---
+
+📌 Future Enhancements
+
+- Electronic Health Record (EHR) Integration
+- FHIR Support
+- Genomic Data Matching
+- Multi-language Support
+- Mobile Application
+- AI Chatbot Assistance
+
+---
+
+👨‍💻 Author
+
+Pooja Kumar : [(https://github.com/poojakumar2004/)
+
+---
+
+📜 License
+
+This project is developed for academic and research purposes.
