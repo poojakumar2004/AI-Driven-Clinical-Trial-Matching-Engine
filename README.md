@@ -135,7 +135,7 @@ The trained AI model recommends the most suitable clinical trials ranked accordi
 ## 📊 Sample Input
 
 <img width="1887" height="865" alt="Screenshot 2026-06-26 115405" src="https://github.com/user-attachments/assets/da68f1e5-fc40-480c-a135-d4f0767e599a" />
----
+
 
 ## 📊 Sample Output
 
