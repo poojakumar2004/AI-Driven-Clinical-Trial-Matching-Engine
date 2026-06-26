@@ -1,9 +1,5 @@
 # 🩺 AI-Driven Clinical Trial Matching Engine
 
-## 📌 Project Title
-
-**AI-Driven Clinical Trial Matching Engine**
-
 ## 📖 Project Description
 
 The AI-Driven Clinical Trial Matching Engine is an intelligent healthcare application that leverages Artificial Intelligence (AI), Machine Learning (ML), and Natural Language Processing (NLP) to match patients with suitable clinical trials based on their medical profiles. The system analyzes patient health records, extracts eligibility criteria from clinical trial documents, and recommends the most relevant trials with explainable results.
@@ -138,25 +134,15 @@ The trained AI model recommends the most suitable clinical trials ranked accordi
 
 ## 📊 Sample Input
 
-| Feature         | Value         |
-| --------------- | ------------- |
-| Age             | 52 Years      |
-| Gender          | Female        |
-| Disease         | Breast Cancer |
-| Stage           | Stage II      |
-| Medication      | Tamoxifen     |
-| Medical History | Hypertension  |
-
+<img width="1887" height="865" alt="Screenshot 2026-06-26 115405" src="https://github.com/user-attachments/assets/da68f1e5-fc40-480c-a135-d4f0767e599a" />
 ---
 
 ## 📊 Sample Output
 
-* Eligible Clinical Trials Ranked by Matching Score
-* Eligibility Confidence Score (e.g., 92%)
-* Match Explanation
-* Rejection Reason (if applicable)
-* Missing Eligibility Information
-* Interactive Dashboard displaying recommended clinical trials
+
+<img width="1847" height="878" alt="Screenshot 2026-06-26 115436" src="https://github.com/user-attachments/assets/a8ca8cd3-654e-4903-a9dc-ee0d1bea3261" />
+
+<img width="1656" height="797" alt="Screenshot 2026-06-26 115503" src="https://github.com/user-attachments/assets/d39495d4-4a77-47a8-8a38-57ffd9c78f56" />
 
 ---
 
